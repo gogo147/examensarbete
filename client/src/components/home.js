@@ -3,7 +3,7 @@ import React from "react";
 export default function Home({ userData }) {
   
   const next = () => {
-    window.location.href = "./web";
+    window.location.href = "./";
   };
   return (
     <div className="auth-wrapper">

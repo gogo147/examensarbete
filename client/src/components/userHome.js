@@ -3,7 +3,7 @@ import React from "react";
 export default function UserHome({ userData }) {
   
   const next = () => {
-    window.location.href = "./web";
+    window.location.href = "./";
   };
 
   return (

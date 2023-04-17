@@ -17,6 +17,8 @@ app.use(express.json());
 app.use(cors());
 
 app.use("/api", movieRoutes);
+
+
 require("./models/userDetails")
 
 const User = mongoose.model("UserInfo")
@@ -81,6 +83,7 @@ app.post("/userData", async (req, res) => {
 
   }
 })
+
 
 const port = process.env.PORT || 8080;
 app.listen(port, () => console.log(`Listening on port ${port}...`));

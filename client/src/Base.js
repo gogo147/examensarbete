@@ -5,7 +5,6 @@ import Product3 from "../src/components/Product/Product3";
 import Login from "./components/login";
 import SignUp from "./components/signup";
 import UserDetails from "./components/userDetails";
-import Web from './components/web'
 import App from "./App";
 import { useEffect, useState } from "react";
 import axios from "axios";
@@ -42,7 +41,7 @@ function Base() {
         <Routes>
         <Route
             exact
-            path="/web"
+            path="/"
             element={ <App />}
           />
           <Route />

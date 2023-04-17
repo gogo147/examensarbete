@@ -4,7 +4,7 @@ import '../styles/Explore.css';
 const Product3 = ({ movies} ) => {
 
   const home = () => {
-    window.location.href = "./web";
+    window.location.href = "./";
   };
 
   return (    
