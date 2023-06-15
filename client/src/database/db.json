@@ -1,0 +1,24 @@
+{
+    "user" : [
+        {
+            "title": "California",
+            "title2": "Los Angeles",
+            "title3": "Florida",
+            "title4": "Miami",
+            "img": "https://www.thepinnaclelist.com/wp-content/uploads/2021/04/03-Hollywood-Hills-Luxury-Estate-9240-Robin-Dr-Los-Angeles-CA-USA-Night-Front-View.jpg",
+            "img2": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/a2/2c/60/an-amazing-house-in-living.jpg?w=1200&h=-1&s=1",
+            "img3": "https://ca-times.brightspotcdn.com/dims4/default/22dfb31/2147483647/strip/true/crop/1024x621+0+0/resize/1200x728!/quality/80/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F25%2F35%2Ff69c9b4243779b2fb8cc858f1691%2Fimage-1.jpeg",
+            "img4": "https://images.coolhouseplans.com/plans/52961/52961-b600.jpg",
+            "year": "1994",
+            "price": "600000",
+            "price2": "1000000",
+            "price3": "750000",
+            "price4": "1500000",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing",
+            "text2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "label": "About",
+            "contact": "Contact Us",
+            "button": "Back"
+        }
+    ]
+}

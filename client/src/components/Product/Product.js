@@ -1,39 +1,53 @@
 import React from 'react';
+import { useState, useEffect } from "react";
+import axios from "axios";
 import '../styles/Explore.css';
 
-const Product = ({ movies} ) => {
+const Product = () => {
 
   const home = () => {
     window.location.href = "./";
   };
 
+  const [ post, setPost ] = useState([]);
+  
+    const fetchPost = async() => {
+      const responsePost = await axios.get(`http://localhost:3000/user`)
+      setPost(responsePost.data)
+  
+    }
+  
+    useEffect(() => {
+      fetchPost();
+    }, [])
+
   return (    
     <>
-
-            {movies.map((movie) => (
-				
-              <div className='Section' name='info' key={movie._id}>
+      {
+        post.map((post, index) => 
+        <div className='Section' name='info' key={index}>
               <div className='Container'>
               <div className='ColumnLeft'>
-                <h1 className='info_h1'>{movie.title}</h1>
-                <p className='info_p'>{movie.text2}</p>
-                <h1 className='info_h1'>{movie.price} kr</h1>
+                <h1 className='info_h1'>{post.title}</h1>
+                <p className='info_p'>{post.text2}</p>
+                <h1 className='info_h1'>{post.price} kr</h1>
                 <div onClick={home} className='Button_product'>
-                  {movie.button}   
+                  {post.button}   
                 </div>
                 <div className='contact_btn'>
-                  {movie.contact}   
+                  {post.contact}   
                 </div>
 
               </div>
               <div className='ColumnRight'>
-                <img className='img' src={movie.img3} />
+                <img className='img' src={post.img3} />
               </div>
               
             </div>
            
             </div>
-			))} 
+        )
+      }
     </> 
   )
 }
