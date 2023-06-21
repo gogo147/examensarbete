@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import Home from "./home";
 import UserHome from "./userHome";
 import AdminHome from "./adminHome";
 
