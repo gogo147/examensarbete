@@ -35,22 +35,23 @@ function Explore() {
           <div div name='explore' key={index}>
           <div className='con_ex'>
           <div onClick={product}>
-          <div className='card'>
+          <div className='card2'>
               <div className='image-content'>
-                  <img className='overlay' src={post.img3} />
+              <img className='overlay2' src={post.img3} />
+  
                   <div className='card-image'>
                   </div>
               </div>
   
               <div className='card-content'>
-              <h2 className='name'>{post.title}</h2>
+                  <h2 className='name'>{post.title}</h2>
                   <p className='description'>
                       {post.text}
                   </p>
   
                   <button className='button'>{post.price} kr</button>
               </div>
-          </div> 
+          </div>
           </div>
   
           <div onClick={product2}>
@@ -95,23 +96,24 @@ function Explore() {
       </div>
 
       <div className='con_ex2' >
-        <div onClick={product}>
-          <div className='card'>
+      <div onClick={product}>
+          <div className='card2'>
               <div className='image-content'>
-                  <img className='overlay' src={post.img3} />
+              <img className='overlay2' src={post.img3} />
+  
                   <div className='card-image'>
                   </div>
               </div>
   
               <div className='card-content'>
-              <h2 className='name'>{post.title}</h2>
+                  <h2 className='name'>{post.title}</h2>
                   <p className='description'>
                       {post.text}
                   </p>
   
                   <button className='button'>{post.price} kr</button>
               </div>
-          </div> 
+          </div>
           </div>
   
           <div onClick={product2}>
@@ -156,23 +158,24 @@ function Explore() {
       </div>
 
       <div className='con_ex3' >
-        <div onClick={product}>
-          <div className='card'>
+      <div onClick={product}>
+          <div className='card2'>
               <div className='image-content'>
-                  <img className='overlay' src={post.img3} />
+              <img className='overlay2' src={post.img3} />
+  
                   <div className='card-image'>
                   </div>
               </div>
   
               <div className='card-content'>
-              <h2 className='name'>{post.title}</h2>
+                  <h2 className='name'>{post.title}</h2>
                   <p className='description'>
                       {post.text}
                   </p>
   
                   <button className='button'>{post.price} kr</button>
               </div>
-          </div> 
+          </div>
           </div>
   
           <div onClick={product2}>
